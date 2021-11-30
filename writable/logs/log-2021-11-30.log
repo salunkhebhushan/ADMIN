@@ -1,0 +1,534 @@
+CRITICAL - 2021-11-30 00:14:53 --> Undefined array key "MSPRS_ADMIN_DETAILS"
+#0 C:\xampp\htdocs\ADMIN\app\Models\LoginModal.php(72): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 72)
+#1 C:\xampp\htdocs\ADMIN\app\Controllers\Home.php(167): App\Models\LoginModal->fetchLogRecord()
+#2 C:\xampp\htdocs\ADMIN\system\CodeIgniter.php(824): App\Controllers\Home->logout()
+#3 C:\xampp\htdocs\ADMIN\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 C:\xampp\htdocs\ADMIN\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\ADMIN\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\ADMIN\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+ERROR - 2021-11-30 00:15:14 --> Not unique table/alias: 'loghistory'
+CRITICAL - 2021-11-30 00:15:14 --> Not unique table/alias: 'loghistory'
+#0 C:\xampp\htdocs\ADMIN\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `LH_ID`,...', 0)
+#1 C:\xampp\htdocs\ADMIN\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `LH_ID`,...')
+#2 C:\xampp\htdocs\ADMIN\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `LH_ID`,...')
+#3 C:\xampp\htdocs\ADMIN\system\Database\BaseBuilder.php(1443): CodeIgniter\Database\BaseConnection->query('SELECT `LH_ID`,...', Array, false)
+#4 C:\xampp\htdocs\ADMIN\app\Models\LoginModal.php(77): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\ADMIN\app\Controllers\Home.php(167): App\Models\LoginModal->fetchLogRecord()
+#6 C:\xampp\htdocs\ADMIN\system\CodeIgniter.php(824): App\Controllers\Home->logout()
+#7 C:\xampp\htdocs\ADMIN\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 C:\xampp\htdocs\ADMIN\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\ADMIN\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\ADMIN\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+ERROR - 2021-11-30 00:15:16 --> Not unique table/alias: 'loghistory'
+CRITICAL - 2021-11-30 00:15:16 --> Not unique table/alias: 'loghistory'
+#0 C:\xampp\htdocs\ADMIN\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `LH_ID`,...', 0)
+#1 C:\xampp\htdocs\ADMIN\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `LH_ID`,...')
+#2 C:\xampp\htdocs\ADMIN\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `LH_ID`,...')
+#3 C:\xampp\htdocs\ADMIN\system\Database\BaseBuilder.php(1443): CodeIgniter\Database\BaseConnection->query('SELECT `LH_ID`,...', Array, false)
+#4 C:\xampp\htdocs\ADMIN\app\Models\LoginModal.php(77): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\ADMIN\app\Controllers\Home.php(167): App\Models\LoginModal->fetchLogRecord()
+#6 C:\xampp\htdocs\ADMIN\system\CodeIgniter.php(824): App\Controllers\Home->logout()
+#7 C:\xampp\htdocs\ADMIN\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 C:\xampp\htdocs\ADMIN\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\ADMIN\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\ADMIN\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+CRITICAL - 2021-11-30 00:25:55 --> foreach() argument must be of type array|object, bool given
+#0 C:\xampp\htdocs\ADMIN\app\Controllers\Home.php(169): CodeIgniter\Debug\Exceptions->errorHandler(2, 'foreach() argum...', 'C:\\xampp\\htdocs...', 169)
+#1 C:\xampp\htdocs\ADMIN\system\CodeIgniter.php(824): App\Controllers\Home->logout()
+#2 C:\xampp\htdocs\ADMIN\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\ADMIN\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\ADMIN\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\ADMIN\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-11-30 00:31:26 --> Undefined array key "ci_session"
+#0 C:\xampp\htdocs\ADMIN\app\Models\LoginModal.php(54): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 54)
+#1 C:\xampp\htdocs\ADMIN\app\Controllers\Home.php(155): App\Models\LoginModal->insertData()
+#2 C:\xampp\htdocs\ADMIN\app\Controllers\Home.php(110): App\Controllers\Home->setLoggedInUserParams(Array)
+#3 C:\xampp\htdocs\ADMIN\system\CodeIgniter.php(824): App\Controllers\Home->authenticateCredentials()
+#4 C:\xampp\htdocs\ADMIN\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\ADMIN\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\ADMIN\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\ADMIN\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2021-11-30 00:31:31 --> Undefined array key "Log_Id"
+#0 C:\xampp\htdocs\ADMIN\app\Models\LoginModal.php(72): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 72)
+#1 C:\xampp\htdocs\ADMIN\app\Controllers\Home.php(167): App\Models\LoginModal->fetchLogRecord()
+#2 C:\xampp\htdocs\ADMIN\system\CodeIgniter.php(824): App\Controllers\Home->logout()
+#3 C:\xampp\htdocs\ADMIN\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 C:\xampp\htdocs\ADMIN\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\ADMIN\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\ADMIN\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2021-11-30 00:31:36 --> Undefined array key "Log_Id"
+#0 C:\xampp\htdocs\ADMIN\app\Models\LoginModal.php(72): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 72)
+#1 C:\xampp\htdocs\ADMIN\app\Controllers\Home.php(167): App\Models\LoginModal->fetchLogRecord()
+#2 C:\xampp\htdocs\ADMIN\system\CodeIgniter.php(824): App\Controllers\Home->logout()
+#3 C:\xampp\htdocs\ADMIN\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 C:\xampp\htdocs\ADMIN\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\ADMIN\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\ADMIN\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2021-11-30 00:32:13 --> Undefined array key "ci_session"
+#0 C:\xampp\htdocs\ADMIN\app\Models\LoginModal.php(54): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 54)
+#1 C:\xampp\htdocs\ADMIN\app\Controllers\Home.php(155): App\Models\LoginModal->insertData()
+#2 C:\xampp\htdocs\ADMIN\app\Controllers\Home.php(110): App\Controllers\Home->setLoggedInUserParams(Array)
+#3 C:\xampp\htdocs\ADMIN\system\CodeIgniter.php(824): App\Controllers\Home->authenticateCredentials()
+#4 C:\xampp\htdocs\ADMIN\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\ADMIN\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\ADMIN\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\ADMIN\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2021-11-30 00:32:23 --> Undefined array key "Log_Id"
+#0 C:\xampp\htdocs\ADMIN\app\Models\LoginModal.php(72): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 72)
+#1 C:\xampp\htdocs\ADMIN\app\Controllers\Home.php(167): App\Models\LoginModal->fetchLogRecord()
+#2 C:\xampp\htdocs\ADMIN\system\CodeIgniter.php(824): App\Controllers\Home->logout()
+#3 C:\xampp\htdocs\ADMIN\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 C:\xampp\htdocs\ADMIN\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\ADMIN\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\ADMIN\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2021-11-30 00:32:29 --> Undefined array key "Log_Id"
+#0 C:\xampp\htdocs\ADMIN\app\Models\LoginModal.php(72): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 72)
+#1 C:\xampp\htdocs\ADMIN\app\Controllers\Home.php(167): App\Models\LoginModal->fetchLogRecord()
+#2 C:\xampp\htdocs\ADMIN\system\CodeIgniter.php(824): App\Controllers\Home->logout()
+#3 C:\xampp\htdocs\ADMIN\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 C:\xampp\htdocs\ADMIN\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\ADMIN\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\ADMIN\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2021-11-30 00:35:36 --> Undefined array key "ci_session"
+#0 C:\xampp\htdocs\ADMIN\app\Models\LoginModal.php(54): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 54)
+#1 C:\xampp\htdocs\ADMIN\app\Controllers\Home.php(155): App\Models\LoginModal->insertData()
+#2 C:\xampp\htdocs\ADMIN\app\Controllers\Home.php(110): App\Controllers\Home->setLoggedInUserParams(Array)
+#3 C:\xampp\htdocs\ADMIN\system\CodeIgniter.php(824): App\Controllers\Home->authenticateCredentials()
+#4 C:\xampp\htdocs\ADMIN\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\ADMIN\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\ADMIN\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\ADMIN\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2021-11-30 00:38:37 --> Undefined array key "ci_session"
+#0 C:\xampp\htdocs\ADMIN\app\Models\LoginModal.php(54): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 54)
+#1 C:\xampp\htdocs\ADMIN\app\Controllers\Home.php(155): App\Models\LoginModal->insertData()
+#2 C:\xampp\htdocs\ADMIN\app\Controllers\Home.php(110): App\Controllers\Home->setLoggedInUserParams(Array)
+#3 C:\xampp\htdocs\ADMIN\system\CodeIgniter.php(824): App\Controllers\Home->authenticateCredentials()
+#4 C:\xampp\htdocs\ADMIN\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\ADMIN\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\ADMIN\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\ADMIN\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2021-11-30 00:39:43 --> Undefined array key "ci_session"
+#0 C:\xampp\htdocs\ADMIN\app\Models\LoginModal.php(54): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 54)
+#1 C:\xampp\htdocs\ADMIN\app\Controllers\Home.php(155): App\Models\LoginModal->insertData()
+#2 C:\xampp\htdocs\ADMIN\app\Controllers\Home.php(110): App\Controllers\Home->setLoggedInUserParams(Array)
+#3 C:\xampp\htdocs\ADMIN\system\CodeIgniter.php(824): App\Controllers\Home->authenticateCredentials()
+#4 C:\xampp\htdocs\ADMIN\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\ADMIN\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\ADMIN\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\ADMIN\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2021-11-30 00:40:13 --> Undefined array key "ci_session"
+#0 C:\xampp\htdocs\ADMIN\app\Models\LoginModal.php(54): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 54)
+#1 C:\xampp\htdocs\ADMIN\app\Controllers\Home.php(155): App\Models\LoginModal->insertData()
+#2 C:\xampp\htdocs\ADMIN\app\Controllers\Home.php(110): App\Controllers\Home->setLoggedInUserParams(Array)
+#3 C:\xampp\htdocs\ADMIN\system\CodeIgniter.php(824): App\Controllers\Home->authenticateCredentials()
+#4 C:\xampp\htdocs\ADMIN\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\ADMIN\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\ADMIN\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\ADMIN\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2021-11-30 00:40:17 --> Undefined array key "Log_Id"
+#0 C:\xampp\htdocs\ADMIN\app\Models\LoginModal.php(72): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 72)
+#1 C:\xampp\htdocs\ADMIN\app\Controllers\Home.php(167): App\Models\LoginModal->fetchLogRecord()
+#2 C:\xampp\htdocs\ADMIN\system\CodeIgniter.php(824): App\Controllers\Home->logout()
+#3 C:\xampp\htdocs\ADMIN\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 C:\xampp\htdocs\ADMIN\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\ADMIN\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\ADMIN\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2021-11-30 00:40:21 --> Undefined array key "Log_Id"
+#0 C:\xampp\htdocs\ADMIN\app\Models\LoginModal.php(72): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 72)
+#1 C:\xampp\htdocs\ADMIN\app\Controllers\Home.php(167): App\Models\LoginModal->fetchLogRecord()
+#2 C:\xampp\htdocs\ADMIN\system\CodeIgniter.php(824): App\Controllers\Home->logout()
+#3 C:\xampp\htdocs\ADMIN\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 C:\xampp\htdocs\ADMIN\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\ADMIN\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\ADMIN\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2021-11-30 00:40:24 --> Undefined array key "Log_Id"
+#0 C:\xampp\htdocs\ADMIN\app\Models\LoginModal.php(72): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 72)
+#1 C:\xampp\htdocs\ADMIN\app\Controllers\Home.php(167): App\Models\LoginModal->fetchLogRecord()
+#2 C:\xampp\htdocs\ADMIN\system\CodeIgniter.php(824): App\Controllers\Home->logout()
+#3 C:\xampp\htdocs\ADMIN\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 C:\xampp\htdocs\ADMIN\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\ADMIN\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\ADMIN\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2021-11-30 00:40:24 --> Undefined array key "Log_Id"
+#0 C:\xampp\htdocs\ADMIN\app\Models\LoginModal.php(72): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 72)
+#1 C:\xampp\htdocs\ADMIN\app\Controllers\Home.php(167): App\Models\LoginModal->fetchLogRecord()
+#2 C:\xampp\htdocs\ADMIN\system\CodeIgniter.php(824): App\Controllers\Home->logout()
+#3 C:\xampp\htdocs\ADMIN\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 C:\xampp\htdocs\ADMIN\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\ADMIN\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\ADMIN\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2021-11-30 00:41:07 --> Undefined array key "ci_session"
+#0 C:\xampp\htdocs\ADMIN\app\Models\LoginModal.php(54): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 54)
+#1 C:\xampp\htdocs\ADMIN\app\Controllers\Home.php(155): App\Models\LoginModal->insertData()
+#2 C:\xampp\htdocs\ADMIN\app\Controllers\Home.php(110): App\Controllers\Home->setLoggedInUserParams(Array)
+#3 C:\xampp\htdocs\ADMIN\system\CodeIgniter.php(824): App\Controllers\Home->authenticateCredentials()
+#4 C:\xampp\htdocs\ADMIN\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\ADMIN\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\ADMIN\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\ADMIN\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2021-11-30 00:50:19 --> Undefined array key "ci_session"
+#0 C:\xampp\htdocs\ADMIN\app\Models\LoginModal.php(47): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 47)
+#1 C:\xampp\htdocs\ADMIN\app\Controllers\Home.php(155): App\Models\LoginModal->insertData()
+#2 C:\xampp\htdocs\ADMIN\app\Controllers\Home.php(110): App\Controllers\Home->setLoggedInUserParams(Array)
+#3 C:\xampp\htdocs\ADMIN\system\CodeIgniter.php(824): App\Controllers\Home->authenticateCredentials()
+#4 C:\xampp\htdocs\ADMIN\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\ADMIN\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\ADMIN\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\ADMIN\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2021-11-30 00:50:40 --> Undefined array key "Log_Id"
+#0 C:\xampp\htdocs\ADMIN\app\Models\LoginModal.php(72): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 72)
+#1 C:\xampp\htdocs\ADMIN\app\Controllers\Home.php(167): App\Models\LoginModal->fetchLogRecord()
+#2 C:\xampp\htdocs\ADMIN\system\CodeIgniter.php(824): App\Controllers\Home->logout()
+#3 C:\xampp\htdocs\ADMIN\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 C:\xampp\htdocs\ADMIN\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\ADMIN\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\ADMIN\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2021-11-30 00:50:41 --> Undefined array key "Log_Id"
+#0 C:\xampp\htdocs\ADMIN\app\Models\LoginModal.php(72): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 72)
+#1 C:\xampp\htdocs\ADMIN\app\Controllers\Home.php(167): App\Models\LoginModal->fetchLogRecord()
+#2 C:\xampp\htdocs\ADMIN\system\CodeIgniter.php(824): App\Controllers\Home->logout()
+#3 C:\xampp\htdocs\ADMIN\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 C:\xampp\htdocs\ADMIN\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\ADMIN\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\ADMIN\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2021-11-30 00:51:44 --> Undefined array key "Log_Id"
+#0 C:\xampp\htdocs\ADMIN\app\Models\LoginModal.php(72): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 72)
+#1 C:\xampp\htdocs\ADMIN\app\Controllers\Home.php(167): App\Models\LoginModal->fetchLogRecord()
+#2 C:\xampp\htdocs\ADMIN\system\CodeIgniter.php(824): App\Controllers\Home->logout()
+#3 C:\xampp\htdocs\ADMIN\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 C:\xampp\htdocs\ADMIN\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\ADMIN\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\ADMIN\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2021-11-30 01:00:16 --> Undefined array key "ci_session"
+#0 C:\xampp\htdocs\ADMIN\app\Models\LoginModal.php(54): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 54)
+#1 C:\xampp\htdocs\ADMIN\app\Controllers\Home.php(155): App\Models\LoginModal->insertData()
+#2 C:\xampp\htdocs\ADMIN\app\Controllers\Home.php(110): App\Controllers\Home->setLoggedInUserParams(Array)
+#3 C:\xampp\htdocs\ADMIN\system\CodeIgniter.php(824): App\Controllers\Home->authenticateCredentials()
+#4 C:\xampp\htdocs\ADMIN\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\ADMIN\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\ADMIN\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\ADMIN\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2021-11-30 01:02:11 --> Undefined array key "ci_session"
+#0 C:\xampp\htdocs\ADMIN\app\Models\LoginModal.php(54): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 54)
+#1 C:\xampp\htdocs\ADMIN\app\Controllers\Home.php(155): App\Models\LoginModal->insertData()
+#2 C:\xampp\htdocs\ADMIN\app\Controllers\Home.php(110): App\Controllers\Home->setLoggedInUserParams(Array)
+#3 C:\xampp\htdocs\ADMIN\system\CodeIgniter.php(824): App\Controllers\Home->authenticateCredentials()
+#4 C:\xampp\htdocs\ADMIN\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\ADMIN\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\ADMIN\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\ADMIN\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2021-11-30 01:02:32 --> Undefined array key "Log_Id"
+#0 C:\xampp\htdocs\ADMIN\app\Models\LoginModal.php(72): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 72)
+#1 C:\xampp\htdocs\ADMIN\app\Controllers\Home.php(167): App\Models\LoginModal->fetchLogRecord()
+#2 C:\xampp\htdocs\ADMIN\system\CodeIgniter.php(824): App\Controllers\Home->logout()
+#3 C:\xampp\htdocs\ADMIN\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 C:\xampp\htdocs\ADMIN\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\ADMIN\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\ADMIN\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2021-11-30 01:02:34 --> Undefined array key "Log_Id"
+#0 C:\xampp\htdocs\ADMIN\app\Models\LoginModal.php(72): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 72)
+#1 C:\xampp\htdocs\ADMIN\app\Controllers\Home.php(167): App\Models\LoginModal->fetchLogRecord()
+#2 C:\xampp\htdocs\ADMIN\system\CodeIgniter.php(824): App\Controllers\Home->logout()
+#3 C:\xampp\htdocs\ADMIN\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 C:\xampp\htdocs\ADMIN\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\ADMIN\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\ADMIN\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2021-11-30 01:02:35 --> Undefined array key "Log_Id"
+#0 C:\xampp\htdocs\ADMIN\app\Models\LoginModal.php(72): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 72)
+#1 C:\xampp\htdocs\ADMIN\app\Controllers\Home.php(167): App\Models\LoginModal->fetchLogRecord()
+#2 C:\xampp\htdocs\ADMIN\system\CodeIgniter.php(824): App\Controllers\Home->logout()
+#3 C:\xampp\htdocs\ADMIN\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 C:\xampp\htdocs\ADMIN\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\ADMIN\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\ADMIN\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2021-11-30 01:02:39 --> Undefined array key "Log_Id"
+#0 C:\xampp\htdocs\ADMIN\app\Models\LoginModal.php(72): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 72)
+#1 C:\xampp\htdocs\ADMIN\app\Controllers\Home.php(167): App\Models\LoginModal->fetchLogRecord()
+#2 C:\xampp\htdocs\ADMIN\system\CodeIgniter.php(824): App\Controllers\Home->logout()
+#3 C:\xampp\htdocs\ADMIN\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 C:\xampp\htdocs\ADMIN\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\ADMIN\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\ADMIN\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2021-11-30 01:05:14 --> Undefined array key "ci_session"
+#0 C:\xampp\htdocs\ADMIN\app\Models\LoginModal.php(54): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 54)
+#1 C:\xampp\htdocs\ADMIN\app\Controllers\Home.php(155): App\Models\LoginModal->insertData()
+#2 C:\xampp\htdocs\ADMIN\app\Controllers\Home.php(110): App\Controllers\Home->setLoggedInUserParams(Array)
+#3 C:\xampp\htdocs\ADMIN\system\CodeIgniter.php(824): App\Controllers\Home->authenticateCredentials()
+#4 C:\xampp\htdocs\ADMIN\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\ADMIN\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\ADMIN\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\ADMIN\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2021-11-30 01:05:38 --> Undefined array key "ci_session"
+#0 C:\xampp\htdocs\ADMIN\app\Models\LoginModal.php(54): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 54)
+#1 C:\xampp\htdocs\ADMIN\app\Controllers\Home.php(155): App\Models\LoginModal->insertData()
+#2 C:\xampp\htdocs\ADMIN\app\Controllers\Home.php(110): App\Controllers\Home->setLoggedInUserParams(Array)
+#3 C:\xampp\htdocs\ADMIN\system\CodeIgniter.php(824): App\Controllers\Home->authenticateCredentials()
+#4 C:\xampp\htdocs\ADMIN\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\ADMIN\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\ADMIN\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\ADMIN\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2021-11-30 01:07:12 --> Undefined array key "ci_session"
+#0 C:\xampp\htdocs\ADMIN\app\Models\LoginModal.php(54): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 54)
+#1 C:\xampp\htdocs\ADMIN\app\Controllers\Home.php(155): App\Models\LoginModal->insertData()
+#2 C:\xampp\htdocs\ADMIN\app\Controllers\Home.php(110): App\Controllers\Home->setLoggedInUserParams(Array)
+#3 C:\xampp\htdocs\ADMIN\system\CodeIgniter.php(824): App\Controllers\Home->authenticateCredentials()
+#4 C:\xampp\htdocs\ADMIN\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\ADMIN\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\ADMIN\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\ADMIN\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2021-11-30 01:11:27 --> Undefined array key "ci_session"
+#0 C:\xampp\htdocs\ADMIN\app\Models\LoginModal.php(54): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 54)
+#1 C:\xampp\htdocs\ADMIN\app\Controllers\Home.php(155): App\Models\LoginModal->insertData()
+#2 C:\xampp\htdocs\ADMIN\app\Controllers\Home.php(110): App\Controllers\Home->setLoggedInUserParams(Array)
+#3 C:\xampp\htdocs\ADMIN\system\CodeIgniter.php(824): App\Controllers\Home->authenticateCredentials()
+#4 C:\xampp\htdocs\ADMIN\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\ADMIN\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\ADMIN\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\ADMIN\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2021-11-30 01:12:03 --> Undefined array key "ci_session"
+#0 C:\xampp\htdocs\ADMIN\app\Models\LoginModal.php(54): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 54)
+#1 C:\xampp\htdocs\ADMIN\app\Controllers\Home.php(155): App\Models\LoginModal->insertData()
+#2 C:\xampp\htdocs\ADMIN\app\Controllers\Home.php(110): App\Controllers\Home->setLoggedInUserParams(Array)
+#3 C:\xampp\htdocs\ADMIN\system\CodeIgniter.php(824): App\Controllers\Home->authenticateCredentials()
+#4 C:\xampp\htdocs\ADMIN\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\ADMIN\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\ADMIN\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\ADMIN\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2021-11-30 01:22:35 --> Undefined array key "Log_Id"
+#0 C:\xampp\htdocs\ADMIN\app\Models\LoginModal.php(72): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 72)
+#1 C:\xampp\htdocs\ADMIN\app\Controllers\Home.php(168): App\Models\LoginModal->fetchLogRecord()
+#2 C:\xampp\htdocs\ADMIN\system\CodeIgniter.php(824): App\Controllers\Home->logout()
+#3 C:\xampp\htdocs\ADMIN\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 C:\xampp\htdocs\ADMIN\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\ADMIN\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\ADMIN\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2021-11-30 01:22:37 --> Undefined array key "Log_Id"
+#0 C:\xampp\htdocs\ADMIN\app\Models\LoginModal.php(72): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 72)
+#1 C:\xampp\htdocs\ADMIN\app\Controllers\Home.php(168): App\Models\LoginModal->fetchLogRecord()
+#2 C:\xampp\htdocs\ADMIN\system\CodeIgniter.php(824): App\Controllers\Home->logout()
+#3 C:\xampp\htdocs\ADMIN\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 C:\xampp\htdocs\ADMIN\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\ADMIN\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\ADMIN\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2021-11-30 01:22:39 --> Undefined array key "Log_Id"
+#0 C:\xampp\htdocs\ADMIN\app\Models\LoginModal.php(72): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 72)
+#1 C:\xampp\htdocs\ADMIN\app\Controllers\Home.php(168): App\Models\LoginModal->fetchLogRecord()
+#2 C:\xampp\htdocs\ADMIN\system\CodeIgniter.php(824): App\Controllers\Home->logout()
+#3 C:\xampp\htdocs\ADMIN\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 C:\xampp\htdocs\ADMIN\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\ADMIN\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\ADMIN\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2021-11-30 01:22:43 --> Undefined array key "Log_Id"
+#0 C:\xampp\htdocs\ADMIN\app\Models\LoginModal.php(72): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 72)
+#1 C:\xampp\htdocs\ADMIN\app\Controllers\Home.php(168): App\Models\LoginModal->fetchLogRecord()
+#2 C:\xampp\htdocs\ADMIN\system\CodeIgniter.php(824): App\Controllers\Home->logout()
+#3 C:\xampp\htdocs\ADMIN\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 C:\xampp\htdocs\ADMIN\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\ADMIN\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\ADMIN\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2021-11-30 01:24:01 --> Undefined array key "ci_session"
+#0 C:\xampp\htdocs\ADMIN\app\Models\LoginModal.php(54): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 54)
+#1 C:\xampp\htdocs\ADMIN\app\Controllers\Home.php(156): App\Models\LoginModal->insertData()
+#2 C:\xampp\htdocs\ADMIN\app\Controllers\Home.php(110): App\Controllers\Home->setLoggedInUserParams(Array)
+#3 C:\xampp\htdocs\ADMIN\system\CodeIgniter.php(824): App\Controllers\Home->authenticateCredentials()
+#4 C:\xampp\htdocs\ADMIN\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\ADMIN\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\ADMIN\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\ADMIN\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2021-11-30 01:25:54 --> Undefined array key "ci_session"
+#0 C:\xampp\htdocs\ADMIN\app\Models\LoginModal.php(54): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 54)
+#1 C:\xampp\htdocs\ADMIN\app\Controllers\Home.php(156): App\Models\LoginModal->insertData()
+#2 C:\xampp\htdocs\ADMIN\app\Controllers\Home.php(110): App\Controllers\Home->setLoggedInUserParams(Array)
+#3 C:\xampp\htdocs\ADMIN\system\CodeIgniter.php(824): App\Controllers\Home->authenticateCredentials()
+#4 C:\xampp\htdocs\ADMIN\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\ADMIN\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\ADMIN\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\ADMIN\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2021-11-30 01:26:59 --> Undefined array key "ci_session"
+#0 C:\xampp\htdocs\ADMIN\app\Models\LoginModal.php(54): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 54)
+#1 C:\xampp\htdocs\ADMIN\app\Controllers\Home.php(155): App\Models\LoginModal->insertData()
+#2 C:\xampp\htdocs\ADMIN\app\Controllers\Home.php(109): App\Controllers\Home->setLoggedInUserParams(Array)
+#3 C:\xampp\htdocs\ADMIN\system\CodeIgniter.php(824): App\Controllers\Home->authenticateCredentials()
+#4 C:\xampp\htdocs\ADMIN\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\ADMIN\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\ADMIN\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\ADMIN\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2021-11-30 01:27:22 --> Undefined array key "ci_session"
+#0 C:\xampp\htdocs\ADMIN\app\Models\LoginModal.php(54): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 54)
+#1 C:\xampp\htdocs\ADMIN\app\Controllers\Home.php(155): App\Models\LoginModal->insertData()
+#2 C:\xampp\htdocs\ADMIN\app\Controllers\Home.php(109): App\Controllers\Home->setLoggedInUserParams(Array)
+#3 C:\xampp\htdocs\ADMIN\system\CodeIgniter.php(824): App\Controllers\Home->authenticateCredentials()
+#4 C:\xampp\htdocs\ADMIN\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\ADMIN\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\ADMIN\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\ADMIN\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2021-11-30 01:31:35 -->  route cannot be found while reverse-routing.
+#0 C:\xampp\htdocs\ADMIN\system\HTTP\RedirectResponse.php(56): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute('')
+#1 C:\xampp\htdocs\ADMIN\system\Common.php(840): CodeIgniter\HTTP\RedirectResponse->route(false)
+#2 C:\xampp\htdocs\ADMIN\app\Controllers\Home.php(191): redirect('http://localhos...')
+#3 C:\xampp\htdocs\ADMIN\system\CodeIgniter.php(824): App\Controllers\Home->logout()
+#4 C:\xampp\htdocs\ADMIN\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\ADMIN\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\ADMIN\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\ADMIN\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2021-11-30 01:31:49 -->  route cannot be found while reverse-routing.
+#0 C:\xampp\htdocs\ADMIN\system\HTTP\RedirectResponse.php(56): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute('')
+#1 C:\xampp\htdocs\ADMIN\system\Common.php(840): CodeIgniter\HTTP\RedirectResponse->route(false)
+#2 C:\xampp\htdocs\ADMIN\app\Controllers\Home.php(191): redirect('http://localhos...')
+#3 C:\xampp\htdocs\ADMIN\system\CodeIgniter.php(824): App\Controllers\Home->logout()
+#4 C:\xampp\htdocs\ADMIN\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\ADMIN\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\ADMIN\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\ADMIN\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2021-11-30 01:31:59 -->  route cannot be found while reverse-routing.
+#0 C:\xampp\htdocs\ADMIN\system\HTTP\RedirectResponse.php(56): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute('')
+#1 C:\xampp\htdocs\ADMIN\system\Common.php(840): CodeIgniter\HTTP\RedirectResponse->route(false)
+#2 C:\xampp\htdocs\ADMIN\app\Controllers\Home.php(191): redirect('http://localhos...')
+#3 C:\xampp\htdocs\ADMIN\system\CodeIgniter.php(824): App\Controllers\Home->logout()
+#4 C:\xampp\htdocs\ADMIN\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\ADMIN\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\ADMIN\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\ADMIN\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2021-11-30 01:32:13 -->  route cannot be found while reverse-routing.
+#0 C:\xampp\htdocs\ADMIN\system\HTTP\RedirectResponse.php(56): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute('')
+#1 C:\xampp\htdocs\ADMIN\system\Common.php(840): CodeIgniter\HTTP\RedirectResponse->route(false)
+#2 C:\xampp\htdocs\ADMIN\app\Controllers\Home.php(191): redirect('http://localhos...')
+#3 C:\xampp\htdocs\ADMIN\system\CodeIgniter.php(824): App\Controllers\Home->logout()
+#4 C:\xampp\htdocs\ADMIN\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\ADMIN\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\ADMIN\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\ADMIN\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2021-11-30 01:32:14 -->  route cannot be found while reverse-routing.
+#0 C:\xampp\htdocs\ADMIN\system\HTTP\RedirectResponse.php(56): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute('')
+#1 C:\xampp\htdocs\ADMIN\system\Common.php(840): CodeIgniter\HTTP\RedirectResponse->route(false)
+#2 C:\xampp\htdocs\ADMIN\app\Controllers\Home.php(191): redirect('http://localhos...')
+#3 C:\xampp\htdocs\ADMIN\system\CodeIgniter.php(824): App\Controllers\Home->logout()
+#4 C:\xampp\htdocs\ADMIN\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\ADMIN\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\ADMIN\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\ADMIN\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2021-11-30 01:32:14 -->  route cannot be found while reverse-routing.
+#0 C:\xampp\htdocs\ADMIN\system\HTTP\RedirectResponse.php(56): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute('')
+#1 C:\xampp\htdocs\ADMIN\system\Common.php(840): CodeIgniter\HTTP\RedirectResponse->route(false)
+#2 C:\xampp\htdocs\ADMIN\app\Controllers\Home.php(191): redirect('http://localhos...')
+#3 C:\xampp\htdocs\ADMIN\system\CodeIgniter.php(824): App\Controllers\Home->logout()
+#4 C:\xampp\htdocs\ADMIN\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\ADMIN\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\ADMIN\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\ADMIN\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2021-11-30 01:32:14 -->  route cannot be found while reverse-routing.
+#0 C:\xampp\htdocs\ADMIN\system\HTTP\RedirectResponse.php(56): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute('')
+#1 C:\xampp\htdocs\ADMIN\system\Common.php(840): CodeIgniter\HTTP\RedirectResponse->route(false)
+#2 C:\xampp\htdocs\ADMIN\app\Controllers\Home.php(191): redirect('http://localhos...')
+#3 C:\xampp\htdocs\ADMIN\system\CodeIgniter.php(824): App\Controllers\Home->logout()
+#4 C:\xampp\htdocs\ADMIN\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\ADMIN\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\ADMIN\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\ADMIN\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2021-11-30 01:32:14 -->  route cannot be found while reverse-routing.
+#0 C:\xampp\htdocs\ADMIN\system\HTTP\RedirectResponse.php(56): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute('')
+#1 C:\xampp\htdocs\ADMIN\system\Common.php(840): CodeIgniter\HTTP\RedirectResponse->route(false)
+#2 C:\xampp\htdocs\ADMIN\app\Controllers\Home.php(191): redirect('http://localhos...')
+#3 C:\xampp\htdocs\ADMIN\system\CodeIgniter.php(824): App\Controllers\Home->logout()
+#4 C:\xampp\htdocs\ADMIN\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\ADMIN\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\ADMIN\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\ADMIN\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2021-11-30 01:32:14 -->  route cannot be found while reverse-routing.
+#0 C:\xampp\htdocs\ADMIN\system\HTTP\RedirectResponse.php(56): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute('')
+#1 C:\xampp\htdocs\ADMIN\system\Common.php(840): CodeIgniter\HTTP\RedirectResponse->route(false)
+#2 C:\xampp\htdocs\ADMIN\app\Controllers\Home.php(191): redirect('http://localhos...')
+#3 C:\xampp\htdocs\ADMIN\system\CodeIgniter.php(824): App\Controllers\Home->logout()
+#4 C:\xampp\htdocs\ADMIN\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\ADMIN\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\ADMIN\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\ADMIN\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2021-11-30 01:32:15 -->  route cannot be found while reverse-routing.
+#0 C:\xampp\htdocs\ADMIN\system\HTTP\RedirectResponse.php(56): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute('')
+#1 C:\xampp\htdocs\ADMIN\system\Common.php(840): CodeIgniter\HTTP\RedirectResponse->route(false)
+#2 C:\xampp\htdocs\ADMIN\app\Controllers\Home.php(191): redirect('http://localhos...')
+#3 C:\xampp\htdocs\ADMIN\system\CodeIgniter.php(824): App\Controllers\Home->logout()
+#4 C:\xampp\htdocs\ADMIN\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\ADMIN\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\ADMIN\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\ADMIN\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2021-11-30 01:32:15 -->  route cannot be found while reverse-routing.
+#0 C:\xampp\htdocs\ADMIN\system\HTTP\RedirectResponse.php(56): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute('')
+#1 C:\xampp\htdocs\ADMIN\system\Common.php(840): CodeIgniter\HTTP\RedirectResponse->route(false)
+#2 C:\xampp\htdocs\ADMIN\app\Controllers\Home.php(191): redirect('http://localhos...')
+#3 C:\xampp\htdocs\ADMIN\system\CodeIgniter.php(824): App\Controllers\Home->logout()
+#4 C:\xampp\htdocs\ADMIN\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\ADMIN\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\ADMIN\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\ADMIN\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2021-11-30 01:32:31 -->  route cannot be found while reverse-routing.
+#0 C:\xampp\htdocs\ADMIN\system\HTTP\RedirectResponse.php(56): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute('')
+#1 C:\xampp\htdocs\ADMIN\system\Common.php(840): CodeIgniter\HTTP\RedirectResponse->route(false)
+#2 C:\xampp\htdocs\ADMIN\app\Controllers\Home.php(191): redirect('http://localhos...', Array)
+#3 C:\xampp\htdocs\ADMIN\system\CodeIgniter.php(824): App\Controllers\Home->logout()
+#4 C:\xampp\htdocs\ADMIN\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\ADMIN\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\ADMIN\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\ADMIN\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2021-11-30 06:09:04 --> foreach() argument must be of type array|object, bool given
+#0 C:\xampp\htdocs\ADMIN\app\Controllers\Home.php(168): CodeIgniter\Debug\Exceptions->errorHandler(2, 'foreach() argum...', 'C:\\xampp\\htdocs...', 168)
+#1 C:\xampp\htdocs\ADMIN\system\CodeIgniter.php(824): App\Controllers\Home->logout()
+#2 C:\xampp\htdocs\ADMIN\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\ADMIN\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\ADMIN\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\ADMIN\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}

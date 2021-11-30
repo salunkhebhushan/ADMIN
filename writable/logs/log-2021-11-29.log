@@ -1,0 +1,395 @@
+CRITICAL - 2021-11-29 01:37:59 --> Class "App\Controllers\EmployeeModel" not found
+#0 C:\xampp\htdocs\ADMIN\system\CodeIgniter.php(802): App\Controllers\Home->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+#1 C:\xampp\htdocs\ADMIN\system\CodeIgniter.php(401): CodeIgniter\CodeIgniter->createController()
+#2 C:\xampp\htdocs\ADMIN\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\ADMIN\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\ADMIN\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2021-11-29 01:38:00 --> Class "App\Controllers\EmployeeModel" not found
+#0 C:\xampp\htdocs\ADMIN\system\CodeIgniter.php(802): App\Controllers\Home->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+#1 C:\xampp\htdocs\ADMIN\system\CodeIgniter.php(401): CodeIgniter\CodeIgniter->createController()
+#2 C:\xampp\htdocs\ADMIN\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\ADMIN\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\ADMIN\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2021-11-29 01:38:01 --> Class "App\Controllers\EmployeeModel" not found
+#0 C:\xampp\htdocs\ADMIN\system\CodeIgniter.php(802): App\Controllers\Home->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+#1 C:\xampp\htdocs\ADMIN\system\CodeIgniter.php(401): CodeIgniter\CodeIgniter->createController()
+#2 C:\xampp\htdocs\ADMIN\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\ADMIN\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\ADMIN\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2021-11-29 01:38:04 --> Class "App\Controllers\EmployeeModel" not found
+#0 C:\xampp\htdocs\ADMIN\system\CodeIgniter.php(802): App\Controllers\Home->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+#1 C:\xampp\htdocs\ADMIN\system\CodeIgniter.php(401): CodeIgniter\CodeIgniter->createController()
+#2 C:\xampp\htdocs\ADMIN\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\ADMIN\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\ADMIN\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2021-11-29 01:38:34 --> Class "App\Controllers\EmployeeModel" not found
+#0 C:\xampp\htdocs\ADMIN\system\CodeIgniter.php(802): App\Controllers\Home->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+#1 C:\xampp\htdocs\ADMIN\system\CodeIgniter.php(401): CodeIgniter\CodeIgniter->createController()
+#2 C:\xampp\htdocs\ADMIN\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\ADMIN\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\ADMIN\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2021-11-29 01:38:34 --> Class "App\Controllers\EmployeeModel" not found
+#0 C:\xampp\htdocs\ADMIN\system\CodeIgniter.php(802): App\Controllers\Home->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+#1 C:\xampp\htdocs\ADMIN\system\CodeIgniter.php(401): CodeIgniter\CodeIgniter->createController()
+#2 C:\xampp\htdocs\ADMIN\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\ADMIN\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\ADMIN\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2021-11-29 01:38:55 --> Class "App\Controllers\EmployeeModel" not found
+#0 C:\xampp\htdocs\ADMIN\system\CodeIgniter.php(802): App\Controllers\Home->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+#1 C:\xampp\htdocs\ADMIN\system\CodeIgniter.php(401): CodeIgniter\CodeIgniter->createController()
+#2 C:\xampp\htdocs\ADMIN\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\ADMIN\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\ADMIN\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2021-11-29 01:38:59 --> Class "App\Controllers\EmployeeModel" not found
+#0 C:\xampp\htdocs\ADMIN\system\CodeIgniter.php(802): App\Controllers\Home->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+#1 C:\xampp\htdocs\ADMIN\system\CodeIgniter.php(401): CodeIgniter\CodeIgniter->createController()
+#2 C:\xampp\htdocs\ADMIN\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\ADMIN\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\ADMIN\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2021-11-29 01:39:02 --> Class "App\Controllers\EmployeeModel" not found
+#0 C:\xampp\htdocs\ADMIN\system\CodeIgniter.php(802): App\Controllers\Home->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+#1 C:\xampp\htdocs\ADMIN\system\CodeIgniter.php(401): CodeIgniter\CodeIgniter->createController()
+#2 C:\xampp\htdocs\ADMIN\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\ADMIN\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\ADMIN\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2021-11-29 01:46:18 --> syntax error, unexpected token "if"
+#0 C:\xampp\htdocs\ADMIN\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\ADMIN\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 C:\xampp\htdocs\ADMIN\app\Controllers\Home.php(5): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 C:\xampp\htdocs\ADMIN\system\Autoloader\Autoloader.php(264): include_once('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\ADMIN\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\ADMIN\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#6 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#7 C:\xampp\htdocs\ADMIN\system\CodeIgniter.php(789): class_exists('\\App\\Controller...', true)
+#8 C:\xampp\htdocs\ADMIN\system\CodeIgniter.php(397): CodeIgniter\CodeIgniter->startController()
+#9 C:\xampp\htdocs\ADMIN\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\ADMIN\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\ADMIN\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#12 {main}
+CRITICAL - 2021-11-29 01:46:21 --> syntax error, unexpected token "if"
+#0 C:\xampp\htdocs\ADMIN\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\ADMIN\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 C:\xampp\htdocs\ADMIN\app\Controllers\Home.php(5): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 C:\xampp\htdocs\ADMIN\system\Autoloader\Autoloader.php(264): include_once('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\ADMIN\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\ADMIN\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#6 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#7 C:\xampp\htdocs\ADMIN\system\CodeIgniter.php(789): class_exists('\\App\\Controller...', true)
+#8 C:\xampp\htdocs\ADMIN\system\CodeIgniter.php(397): CodeIgniter\CodeIgniter->startController()
+#9 C:\xampp\htdocs\ADMIN\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\ADMIN\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\ADMIN\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#12 {main}
+CRITICAL - 2021-11-29 01:47:38 --> Undefined variable $ASSETS
+#0 C:\xampp\htdocs\ADMIN\app\Controllers\BaseController.php(52): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 52)
+#1 C:\xampp\htdocs\ADMIN\app\Controllers\Home.php(10): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+#2 C:\xampp\htdocs\ADMIN\system\CodeIgniter.php(802): App\Controllers\Home->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+#3 C:\xampp\htdocs\ADMIN\system\CodeIgniter.php(401): CodeIgniter\CodeIgniter->createController()
+#4 C:\xampp\htdocs\ADMIN\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\ADMIN\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\ADMIN\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2021-11-29 01:47:40 --> Undefined variable $ASSETS
+#0 C:\xampp\htdocs\ADMIN\app\Controllers\BaseController.php(52): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 52)
+#1 C:\xampp\htdocs\ADMIN\app\Controllers\Home.php(10): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+#2 C:\xampp\htdocs\ADMIN\system\CodeIgniter.php(802): App\Controllers\Home->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+#3 C:\xampp\htdocs\ADMIN\system\CodeIgniter.php(401): CodeIgniter\CodeIgniter->createController()
+#4 C:\xampp\htdocs\ADMIN\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\ADMIN\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\ADMIN\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2021-11-29 01:47:56 --> Undefined variable $BASE
+#0 C:\xampp\htdocs\ADMIN\app\Controllers\BaseController.php(52): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 52)
+#1 C:\xampp\htdocs\ADMIN\app\Controllers\Home.php(10): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+#2 C:\xampp\htdocs\ADMIN\system\CodeIgniter.php(802): App\Controllers\Home->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+#3 C:\xampp\htdocs\ADMIN\system\CodeIgniter.php(401): CodeIgniter\CodeIgniter->createController()
+#4 C:\xampp\htdocs\ADMIN\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\ADMIN\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\ADMIN\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2021-11-29 01:52:56 --> Class "App\Controllers\EmployeeModel" not found
+#0 C:\xampp\htdocs\ADMIN\system\CodeIgniter.php(802): App\Controllers\Home->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+#1 C:\xampp\htdocs\ADMIN\system\CodeIgniter.php(401): CodeIgniter\CodeIgniter->createController()
+#2 C:\xampp\htdocs\ADMIN\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\ADMIN\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\ADMIN\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2021-11-29 01:52:57 --> Class "App\Controllers\EmployeeModel" not found
+#0 C:\xampp\htdocs\ADMIN\system\CodeIgniter.php(802): App\Controllers\Home->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+#1 C:\xampp\htdocs\ADMIN\system\CodeIgniter.php(401): CodeIgniter\CodeIgniter->createController()
+#2 C:\xampp\htdocs\ADMIN\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\ADMIN\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\ADMIN\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2021-11-29 01:52:57 --> Class "App\Controllers\EmployeeModel" not found
+#0 C:\xampp\htdocs\ADMIN\system\CodeIgniter.php(802): App\Controllers\Home->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+#1 C:\xampp\htdocs\ADMIN\system\CodeIgniter.php(401): CodeIgniter\CodeIgniter->createController()
+#2 C:\xampp\htdocs\ADMIN\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\ADMIN\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\ADMIN\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2021-11-29 01:52:57 --> Class "App\Controllers\EmployeeModel" not found
+#0 C:\xampp\htdocs\ADMIN\system\CodeIgniter.php(802): App\Controllers\Home->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+#1 C:\xampp\htdocs\ADMIN\system\CodeIgniter.php(401): CodeIgniter\CodeIgniter->createController()
+#2 C:\xampp\htdocs\ADMIN\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\ADMIN\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\ADMIN\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2021-11-29 01:52:57 --> Class "App\Controllers\EmployeeModel" not found
+#0 C:\xampp\htdocs\ADMIN\system\CodeIgniter.php(802): App\Controllers\Home->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+#1 C:\xampp\htdocs\ADMIN\system\CodeIgniter.php(401): CodeIgniter\CodeIgniter->createController()
+#2 C:\xampp\htdocs\ADMIN\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\ADMIN\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\ADMIN\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2021-11-29 01:52:58 --> Class "App\Controllers\EmployeeModel" not found
+#0 C:\xampp\htdocs\ADMIN\system\CodeIgniter.php(802): App\Controllers\Home->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+#1 C:\xampp\htdocs\ADMIN\system\CodeIgniter.php(401): CodeIgniter\CodeIgniter->createController()
+#2 C:\xampp\htdocs\ADMIN\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\ADMIN\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\ADMIN\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2021-11-29 01:53:04 --> Class "App\Controllers\EmployeeModel" not found
+#0 C:\xampp\htdocs\ADMIN\system\CodeIgniter.php(802): App\Controllers\Home->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+#1 C:\xampp\htdocs\ADMIN\system\CodeIgniter.php(401): CodeIgniter\CodeIgniter->createController()
+#2 C:\xampp\htdocs\ADMIN\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\ADMIN\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\ADMIN\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2021-11-29 01:53:05 --> Class "App\Controllers\EmployeeModel" not found
+#0 C:\xampp\htdocs\ADMIN\system\CodeIgniter.php(802): App\Controllers\Home->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+#1 C:\xampp\htdocs\ADMIN\system\CodeIgniter.php(401): CodeIgniter\CodeIgniter->createController()
+#2 C:\xampp\htdocs\ADMIN\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\ADMIN\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\ADMIN\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2021-11-29 01:53:06 --> Class "App\Controllers\EmployeeModel" not found
+#0 C:\xampp\htdocs\ADMIN\system\CodeIgniter.php(802): App\Controllers\Home->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+#1 C:\xampp\htdocs\ADMIN\system\CodeIgniter.php(401): CodeIgniter\CodeIgniter->createController()
+#2 C:\xampp\htdocs\ADMIN\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\ADMIN\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\ADMIN\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2021-11-29 01:53:17 --> Class "App\Controllers\EmployeeModel" not found
+#0 C:\xampp\htdocs\ADMIN\system\CodeIgniter.php(802): App\Controllers\Home->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+#1 C:\xampp\htdocs\ADMIN\system\CodeIgniter.php(401): CodeIgniter\CodeIgniter->createController()
+#2 C:\xampp\htdocs\ADMIN\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\ADMIN\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\ADMIN\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2021-11-29 01:55:38 --> Class "App\Controllers\EmployeeModel" not found
+#0 C:\xampp\htdocs\ADMIN\system\CodeIgniter.php(802): App\Controllers\Home->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+#1 C:\xampp\htdocs\ADMIN\system\CodeIgniter.php(401): CodeIgniter\CodeIgniter->createController()
+#2 C:\xampp\htdocs\ADMIN\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\ADMIN\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\ADMIN\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2021-11-29 01:55:39 --> Class "App\Controllers\EmployeeModel" not found
+#0 C:\xampp\htdocs\ADMIN\system\CodeIgniter.php(802): App\Controllers\Home->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+#1 C:\xampp\htdocs\ADMIN\system\CodeIgniter.php(401): CodeIgniter\CodeIgniter->createController()
+#2 C:\xampp\htdocs\ADMIN\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\ADMIN\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\ADMIN\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2021-11-29 01:55:39 --> Class "App\Controllers\EmployeeModel" not found
+#0 C:\xampp\htdocs\ADMIN\system\CodeIgniter.php(802): App\Controllers\Home->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+#1 C:\xampp\htdocs\ADMIN\system\CodeIgniter.php(401): CodeIgniter\CodeIgniter->createController()
+#2 C:\xampp\htdocs\ADMIN\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\ADMIN\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\ADMIN\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2021-11-29 01:55:39 --> Class "App\Controllers\EmployeeModel" not found
+#0 C:\xampp\htdocs\ADMIN\system\CodeIgniter.php(802): App\Controllers\Home->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+#1 C:\xampp\htdocs\ADMIN\system\CodeIgniter.php(401): CodeIgniter\CodeIgniter->createController()
+#2 C:\xampp\htdocs\ADMIN\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\ADMIN\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\ADMIN\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2021-11-29 01:55:39 --> Class "App\Controllers\EmployeeModel" not found
+#0 C:\xampp\htdocs\ADMIN\system\CodeIgniter.php(802): App\Controllers\Home->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+#1 C:\xampp\htdocs\ADMIN\system\CodeIgniter.php(401): CodeIgniter\CodeIgniter->createController()
+#2 C:\xampp\htdocs\ADMIN\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\ADMIN\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\ADMIN\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2021-11-29 01:55:56 --> Class "App\Controllers\EmployeeModel" not found
+#0 C:\xampp\htdocs\ADMIN\system\CodeIgniter.php(802): App\Controllers\Home->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+#1 C:\xampp\htdocs\ADMIN\system\CodeIgniter.php(401): CodeIgniter\CodeIgniter->createController()
+#2 C:\xampp\htdocs\ADMIN\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\ADMIN\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\ADMIN\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2021-11-29 01:57:45 --> Class "App\Controllers\EmployeeModel" not found
+#0 C:\xampp\htdocs\ADMIN\system\CodeIgniter.php(802): App\Controllers\Home->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+#1 C:\xampp\htdocs\ADMIN\system\CodeIgniter.php(401): CodeIgniter\CodeIgniter->createController()
+#2 C:\xampp\htdocs\ADMIN\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\ADMIN\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\ADMIN\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2021-11-29 01:58:41 --> Invalid file: main_content.php
+#0 C:\xampp\htdocs\ADMIN\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('main_content.ph...')
+#1 C:\xampp\htdocs\ADMIN\system\View\View.php(230): CodeIgniter\View\View->render('main_content', Array, true)
+#2 C:\xampp\htdocs\ADMIN\system\Common.php(1097): CodeIgniter\View\View->render('dashboard-crm', Array, true)
+#3 C:\xampp\htdocs\ADMIN\app\Controllers\Home.php(26): view('dashboard-crm')
+#4 C:\xampp\htdocs\ADMIN\system\CodeIgniter.php(824): App\Controllers\Home->index()
+#5 C:\xampp\htdocs\ADMIN\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\xampp\htdocs\ADMIN\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\ADMIN\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\ADMIN\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2021-11-29 01:58:56 --> Invalid file: main_content.php
+#0 C:\xampp\htdocs\ADMIN\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('main_content.ph...')
+#1 C:\xampp\htdocs\ADMIN\system\View\View.php(230): CodeIgniter\View\View->render('main_content', Array, true)
+#2 C:\xampp\htdocs\ADMIN\system\Common.php(1097): CodeIgniter\View\View->render('dashboard-crm', Array, true)
+#3 C:\xampp\htdocs\ADMIN\app\Controllers\Home.php(26): view('dashboard-crm')
+#4 C:\xampp\htdocs\ADMIN\system\CodeIgniter.php(824): App\Controllers\Home->index()
+#5 C:\xampp\htdocs\ADMIN\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\xampp\htdocs\ADMIN\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\ADMIN\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\ADMIN\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2021-11-29 02:01:44 --> Invalid file: inc/main_content.php
+#0 C:\xampp\htdocs\ADMIN\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('inc/main_conten...')
+#1 C:\xampp\htdocs\ADMIN\system\View\View.php(230): CodeIgniter\View\View->render('inc/main_conten...', Array, true)
+#2 C:\xampp\htdocs\ADMIN\system\Common.php(1097): CodeIgniter\View\View->render('dashboard-crm', Array, true)
+#3 C:\xampp\htdocs\ADMIN\app\Controllers\Home.php(27): view('dashboard-crm')
+#4 C:\xampp\htdocs\ADMIN\system\CodeIgniter.php(824): App\Controllers\Home->index()
+#5 C:\xampp\htdocs\ADMIN\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\xampp\htdocs\ADMIN\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\ADMIN\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\ADMIN\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+ERROR - 2021-11-29 05:34:23 --> Error connecting to the database: Access denied for user ''@'localhost' (using password: NO)
+CRITICAL - 2021-11-29 05:34:23 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user ''@'localhost' (using password: NO)
+#0 C:\xampp\htdocs\ADMIN\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp\htdocs\ADMIN\system\Database\BaseBuilder.php(1443): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 C:\xampp\htdocs\ADMIN\system\Model.php(210): CodeIgniter\Database\BaseBuilder->get()
+#3 C:\xampp\htdocs\ADMIN\system\BaseModel.php(622): CodeIgniter\Model->doFirst()
+#4 C:\xampp\htdocs\ADMIN\app\Controllers\Home.php(59): CodeIgniter\BaseModel->first()
+#5 C:\xampp\htdocs\ADMIN\system\CodeIgniter.php(824): App\Controllers\Home->authenticateCredentials()
+#6 C:\xampp\htdocs\ADMIN\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\ADMIN\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\ADMIN\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\ADMIN\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+ERROR - 2021-11-29 05:36:58 --> No database selected
+CRITICAL - 2021-11-29 05:36:58 --> No database selected
+#0 C:\xampp\htdocs\ADMIN\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\ADMIN\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\ADMIN\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\ADMIN\system\Database\BaseBuilder.php(1443): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\ADMIN\system\Model.php(210): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\ADMIN\system\BaseModel.php(622): CodeIgniter\Model->doFirst()
+#6 C:\xampp\htdocs\ADMIN\app\Controllers\Home.php(59): CodeIgniter\BaseModel->first()
+#7 C:\xampp\htdocs\ADMIN\system\CodeIgniter.php(824): App\Controllers\Home->authenticateCredentials()
+#8 C:\xampp\htdocs\ADMIN\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#9 C:\xampp\htdocs\ADMIN\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\ADMIN\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\ADMIN\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#12 {main}
+ERROR - 2021-11-29 05:37:10 --> No database selected
+CRITICAL - 2021-11-29 05:37:10 --> No database selected
+#0 C:\xampp\htdocs\ADMIN\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\ADMIN\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\ADMIN\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\ADMIN\system\Database\BaseBuilder.php(1443): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\ADMIN\system\Model.php(210): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\ADMIN\system\BaseModel.php(622): CodeIgniter\Model->doFirst()
+#6 C:\xampp\htdocs\ADMIN\app\Controllers\Home.php(59): CodeIgniter\BaseModel->first()
+#7 C:\xampp\htdocs\ADMIN\system\CodeIgniter.php(824): App\Controllers\Home->authenticateCredentials()
+#8 C:\xampp\htdocs\ADMIN\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#9 C:\xampp\htdocs\ADMIN\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\ADMIN\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\ADMIN\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#12 {main}
+ERROR - 2021-11-29 05:39:22 --> No database selected
+CRITICAL - 2021-11-29 05:39:22 --> No database selected
+#0 C:\xampp\htdocs\ADMIN\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\ADMIN\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\ADMIN\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\ADMIN\system\Database\BaseBuilder.php(1443): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\ADMIN\system\Model.php(210): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\ADMIN\system\BaseModel.php(622): CodeIgniter\Model->doFirst()
+#6 C:\xampp\htdocs\ADMIN\app\Controllers\Home.php(59): CodeIgniter\BaseModel->first()
+#7 C:\xampp\htdocs\ADMIN\system\CodeIgniter.php(824): App\Controllers\Home->authenticateCredentials()
+#8 C:\xampp\htdocs\ADMIN\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#9 C:\xampp\htdocs\ADMIN\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\ADMIN\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\ADMIN\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#12 {main}
+ERROR - 2021-11-29 05:39:25 --> No database selected
+CRITICAL - 2021-11-29 05:39:25 --> No database selected
+#0 C:\xampp\htdocs\ADMIN\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\ADMIN\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\ADMIN\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\ADMIN\system\Database\BaseBuilder.php(1443): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\ADMIN\system\Model.php(210): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\ADMIN\system\BaseModel.php(622): CodeIgniter\Model->doFirst()
+#6 C:\xampp\htdocs\ADMIN\app\Controllers\Home.php(59): CodeIgniter\BaseModel->first()
+#7 C:\xampp\htdocs\ADMIN\system\CodeIgniter.php(824): App\Controllers\Home->authenticateCredentials()
+#8 C:\xampp\htdocs\ADMIN\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#9 C:\xampp\htdocs\ADMIN\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\ADMIN\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\ADMIN\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#12 {main}
+CRITICAL - 2021-11-29 05:46:05 --> Undefined property: App\Controllers\Home::$login
+#0 C:\xampp\htdocs\ADMIN\app\Controllers\Home.php(59): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 59)
+#1 C:\xampp\htdocs\ADMIN\system\CodeIgniter.php(824): App\Controllers\Home->authenticateCredentials()
+#2 C:\xampp\htdocs\ADMIN\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\ADMIN\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\ADMIN\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\ADMIN\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-11-29 06:10:18 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\ADMIN\app\Controllers\Home.php(64): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'C:\\xampp\\htdocs...', 64)
+#1 C:\xampp\htdocs\ADMIN\system\CodeIgniter.php(824): App\Controllers\Home->authenticateCredentials()
+#2 C:\xampp\htdocs\ADMIN\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\ADMIN\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\ADMIN\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\ADMIN\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-11-29 06:13:07 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\ADMIN\app\Controllers\Home.php(60): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'C:\\xampp\\htdocs...', 60)
+#1 C:\xampp\htdocs\ADMIN\system\CodeIgniter.php(824): App\Controllers\Home->authenticateCredentials()
+#2 C:\xampp\htdocs\ADMIN\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\ADMIN\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\ADMIN\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\ADMIN\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-11-29 06:13:13 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\ADMIN\app\Controllers\Home.php(60): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'C:\\xampp\\htdocs...', 60)
+#1 C:\xampp\htdocs\ADMIN\system\CodeIgniter.php(824): App\Controllers\Home->authenticateCredentials()
+#2 C:\xampp\htdocs\ADMIN\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\ADMIN\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\ADMIN\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\ADMIN\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-11-29 22:32:21 --> Undefined array key "userid"
+#0 C:\xampp\htdocs\ADMIN\app\Controllers\Home.php(145): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 145)
+#1 C:\xampp\htdocs\ADMIN\app\Controllers\Home.php(108): App\Controllers\Home->setLoggedInUserParams(Array)
+#2 C:\xampp\htdocs\ADMIN\system\CodeIgniter.php(824): App\Controllers\Home->authenticateCredentials()
+#3 C:\xampp\htdocs\ADMIN\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 C:\xampp\htdocs\ADMIN\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\ADMIN\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\ADMIN\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2021-11-29 22:44:23 --> Undefined array key "PHPSESSID"
+#0 C:\xampp\htdocs\ADMIN\app\Models\LoginModal.php(54): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 54)
+#1 C:\xampp\htdocs\ADMIN\app\Controllers\Home.php(153): App\Models\LoginModal->insertData()
+#2 C:\xampp\htdocs\ADMIN\app\Controllers\Home.php(108): App\Controllers\Home->setLoggedInUserParams(Array)
+#3 C:\xampp\htdocs\ADMIN\system\CodeIgniter.php(824): App\Controllers\Home->authenticateCredentials()
+#4 C:\xampp\htdocs\ADMIN\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\ADMIN\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\ADMIN\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\ADMIN\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
